@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enclave_Simulation", "Enclave_Simulation\Enclave_Simulation.vcxproj", "{AC29A1E5-C500-4332-B5EC-4751AC5248F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "App_Simulation", "App_Simulation\App_Simulation.vcxproj", "{817EC3D7-8F88-43CB-A941-109432E9E51D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Prerelease|Win32 = Prerelease|Win32
+		Release|Win32 = Release|Win32
+		Simulation|Win32 = Simulation|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Debug|Win32.Build.0 = Debug|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Prerelease|Win32.ActiveCfg = Prerelease|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Prerelease|Win32.Build.0 = Prerelease|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Release|Win32.ActiveCfg = Release|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Release|Win32.Build.0 = Release|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Simulation|Win32.ActiveCfg = Simulation|Win32
+		{AC29A1E5-C500-4332-B5EC-4751AC5248F7}.Simulation|Win32.Build.0 = Simulation|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Debug|Win32.Build.0 = Debug|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Prerelease|Win32.ActiveCfg = Prerelease|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Prerelease|Win32.Build.0 = Prerelease|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Release|Win32.ActiveCfg = Release|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Release|Win32.Build.0 = Release|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Simulation|Win32.ActiveCfg = Simulation|Win32
+		{817EC3D7-8F88-43CB-A941-109432E9E51D}.Simulation|Win32.Build.0 = Simulation|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
