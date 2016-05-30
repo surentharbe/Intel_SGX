@@ -103,6 +103,3 @@ Use the default project settings for an untrusted application, with the followin
                   Simulation Configuration: sgx_uae_service_sim.lib; sgx_urts_sim.lib
 
 Now we are able to run application enclaves in simulation mode (Intel® SGX hardware is not required) using Intel® SGX Evaluation SDK provides simulation libraries.
-
-Please find the Sample code for SGX Enhanced Application using simulation mode at below link
-https://drive.google.com/open?id=0B4N3YNdBPBe8SFh6NW9MR05uWXc 
