@@ -1,0 +1,15 @@
+enclave {
+    trusted {
+        /* define ECALLs here. */
+		public void enclaveChangeBuffer([out, size=len] char* buf, size_t len);
+        public void enclaveStringSave([in, size=len] char *input, size_t len);
+        public void enclaveStringLoad([out, size=len] char *output, size_t len);
+        public void enclaveSaveInt(int input);
+        public int enclaveLoadInt();      
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+    
+    };
+};
