@@ -1,0 +1,13 @@
+enclave {
+    trusted {
+        /* define ECALLs here. */
+		public void Encryption([in, out, string] char uData[100]); 
+		public void Decryption([in, out, string] char euData[100]);     
+		public void SecretInfo([out, size=len] char* buf, size_t len);
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+    
+    };
+};
