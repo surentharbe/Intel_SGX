@@ -1,0 +1,12 @@
+enclave {
+    trusted {
+        /* define ECALLs here. */
+		//public char* EndPoint_TrustedFn([in, out, string] char uData[100], [in] char uName[50], [in] char uPassword[50]);    
+		public void EndPoint_TrustedFn([in, out, string] char uData[100]);    
+    };
+
+    untrusted {
+        /* define OCALLs here. */
+    
+    };
+};
