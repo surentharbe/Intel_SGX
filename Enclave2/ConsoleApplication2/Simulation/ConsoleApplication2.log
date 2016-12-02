@@ -1,0 +1,16 @@
+﻿Build started 12/2/2016 5:25:00 PM.
+     1>Project "C:\Users\surenthx\Downloads\Enclave2\ConsoleApplication2\ConsoleApplication2.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\IntelSGXSDK\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Simulation\\" /Fd"Simulation\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication2.cpp
+         ConsoleApplication2.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\IntelSGXSDK\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Simulation\\" /Fd"Simulation\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Enclave2_u.c
+         Enclave2_u.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\surenthx\Downloads\Enclave2\Simulation\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\IntelSGXSDK\\bin\Win32\Debug" sgx_urts_sim.lib sgx_uae_service_sim.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\surenthx\Downloads\Enclave2\Simulation\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\surenthx\Downloads\Enclave2\Simulation\ConsoleApplication2.lib" /MACHINE:X86 Simulation\ConsoleApplication2.obj
+         Simulation\Enclave2_u.obj
+         ConsoleApplication2.vcxproj -> C:\Users\surenthx\Downloads\Enclave2\Simulation\ConsoleApplication2.exe
+     1>Done Building Project "C:\Users\surenthx\Downloads\Enclave2\ConsoleApplication2\ConsoleApplication2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.34

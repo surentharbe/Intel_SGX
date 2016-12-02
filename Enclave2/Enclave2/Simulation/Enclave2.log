@@ -1,0 +1,35 @@
+﻿Build started 12/2/2016 5:24:59 PM.
+     1>Project "C:\Users\surenthx\Downloads\Enclave2\Enclave2\Enclave2.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Creating proxy/bridge routines
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\IntelSGXSDK\include" /I"C:\Program Files (x86)\Intel\IntelSGXSDK\include\tlibc" /I"C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDLL /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Simulation\\" /Fd"Simulation\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Enclave2.cpp
+         Enclave2.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\IntelSGXSDK\include" /I"C:\Program Files (x86)\Intel\IntelSGXSDK\include\tlibc" /I"C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDLL /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Simulation\\" /Fd"Simulation\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Enclave2_t.c
+         Enclave2_t.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\IntelSGXSDK\bin\Win32\Debug" sgx_trts_sim.lib sgx_tstdc.lib sgx_tservice_sim.lib sgx_tcrypto.lib sgx_tstdcxx.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.pdb" /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.lib" /MACHINE:X86 /SAFESEH /DLL Simulation\Enclave2.obj
+         Simulation\Enclave2_t.obj
+            Creating library C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.lib and object C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.exp
+         Enclave2.vcxproj -> C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.dll
+       PostBuildEvent:
+         "C:\Program Files (x86)\Intel\IntelSGXSDK\bin\win32\release\sgx_sign.exe" sign -key "C:\Users\surenthx\Downloads\Enclave2\Enclave2\Enclave2_private.pem" -enclave "C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.dll" -out "C:\Users\surenthx\Downloads\Enclave2\Simulation\Enclave2.signed.dll" -config "C:\Users\surenthx\Downloads\Enclave2\Enclave2\Enclave2.config.xml"
+         :VCEnd
+         The required memory is 0x165000.
+         Succeed.
+         <EnclaveConfiguration>
+             <ProdID>0</ProdID>
+             <ISVSVN>0</ISVSVN>
+             <StackMaxSize>0x40000</StackMaxSize>
+             <HeapMaxSize>0x100000</HeapMaxSize>
+             <TCSNum>1</TCSNum>
+             <TCSPolicy>1</TCSPolicy>
+             <DisableDebug>0</DisableDebug>
+             <MiscSelect>0</MiscSelect>
+             <MiscMask>0xFFFFFFFF</MiscMask>
+         </EnclaveConfiguration>
+     1>Done Building Project "C:\Users\surenthx\Downloads\Enclave2\Enclave2\Enclave2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.86
